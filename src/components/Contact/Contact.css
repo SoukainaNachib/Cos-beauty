@@ -1,0 +1,91 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #FFFDD0; 
+}
+
+.form-contact {
+  max-width: 600px;
+  width: 100%;
+  padding: 25px 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 25px;
+  background-color: #FFFFFF; 
+}
+
+.form-contact h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #001F3F; 
+}
+
+.input-box {
+  margin-top: 20px;
+  width: 100%; 
+}
+
+.input-box label {
+  display: block; 
+  font-size: 16px;
+  margin-bottom: 5px; 
+  color: #001F3F; 
+}
+
+.input-box .field {
+  width: 100%; 
+  height: 50px;
+  border: 1px solid #001F3F; 
+  outline: none;
+  border-radius: 6px;
+  padding: 15px;
+  font-size: 16px;
+  margin-top: 8px;
+  background: transparent;
+  transition: border-color 0.3s; 
+}
+
+.input-box .msg {
+  border: #001F3F 1px solid; 
+  border-radius: 6px;
+  height: 200px;
+  resize: none;
+  padding: 15px;
+  font-size: 16px;
+}
+
+button[type='submit'] {
+  margin-top: 20px;
+  width: 100%; 
+  height: 50px;
+  background-color: #001F3F; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s, color 0.3s, box-shadow 0.2s; 
+}
+
+button[type='submit']:hover {
+  background-color: #228B22; 
+}
+
+.input-box .field:focus {
+  border: #228B22 solid 2px; 
+}
+
+.style-swal {
+  background-color: #001F3F; 
+  color: white;
+  border-radius: 6px;
+  padding: 10px 20px;
+  border: none;
+  transition: background 0.3s;
+}
+
+.style-swal:hover {
+  background-color: #228B22; 
+}

@@ -1,0 +1,166 @@
+.footer {
+    margin-top: auto;
+    background-color: #FFFDD0;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 2px solid #001F3F;
+}
+
+.terms-text {
+    font-size: 12px;
+    color: #333;
+}
+
+.terms-text a {
+    text-decoration: underline;
+    color: #001F3F;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons .icon {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #228B22;
+}
+
+.footer-links,
+.policies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-links a,
+.policies a {
+    text-decoration: none;
+    color: #001F3F;
+}
+
+.footer-links a:hover,
+.policies a:hover {
+    text-decoration: underline;
+    color: #228B22;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #777;
+}
+
+@media (max-width: 768px) {
+    .signup-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email-input,
+    .submit-button {
+        max-width: 100%;
+    }
+
+    .footer-links,
+    .policies {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .social-icons .icon {
+        font-size: 20px;
+        margin: 0 5px;
+    }
+}
+
+.social-icons:hover,
+.icon:hover {
+    color: #8d7676;
+}
+
+
+.product img {
+    width: 100%;
+    height: 200px !important;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.discount {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #228B22;
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 50px;
+    color: #fff;
+    margin: 10px;
+}
+
+.product {
+    background: #FFFDD0;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    border: #228B22 .5px solid;
+    margin: 10px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    color: #001F3F;
+}
+
+.product .rate i {
+    font-size: 15px;
+    color: #228B22;
+    margin: 0 5px 10px 0;
+}
+
+.product .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    
+    margin-top: 5px;
+}
+
+.price button {
+    background: none;
+    color: #001F3F;
+    font-size: 20px;
+    transition: 0.5s;
+    border: 1px solid rgba(3, 0, 71, 0.1);
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.price button:hover {
+    cursor: pointer;
+    background-color: #001F3F;
+    color:#fff;
+}
+
+button.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: #228B22;
+    color: white;
+}
+
+.product:hover {
+    opacity: 1;
+}

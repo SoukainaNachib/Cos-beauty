@@ -1,0 +1,84 @@
+/* Styling for Footer */
+.footer {
+  margin-top: auto;
+  background-color: #FFFDD0; /* Cream */
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 2px solid #001F3F; /* Navy Blue border for a classic touch */
+}
+
+.terms-text {
+  font-size: 12px;
+  color: #333; /* Darker text for better readability */
+}
+
+.terms-text a {
+  text-decoration: underline;
+  color: #001F3F; /* Navy Blue */
+}
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icons .icon {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #228B22; /* Forest Green for social icons */
+}
+
+.footer-links,
+.policies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-links a,
+.policies a {
+  text-decoration: none;
+  color: #001F3F; /* Navy Blue */
+}
+
+.footer-links a:hover,
+.policies a:hover {
+  text-decoration: underline;
+  color: #228B22; 
+}
+
+.copyright {
+  font-size: 12px;
+  color: #777; 
+}
+
+@media (max-width: 768px) {
+  .signup-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .email-input,
+  .submit-button {
+    max-width: 100%;
+  }
+
+  .footer-links,
+  .policies {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-icons .icon {
+    font-size: 20px;
+    margin: 0 5px;
+  }
+}
+
+.social-icons:hover,
+.icon:hover {
+  color: #8d7676;
+}

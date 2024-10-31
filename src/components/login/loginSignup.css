@@ -1,0 +1,110 @@
+/* Styling for Form Container */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #001F3F; /* Navy Blue border */
+    border-radius: 8px;
+    background-color: #FFFDD0; /* Cream background */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-family: 'Georgia', serif; /* Change to a classic font */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    gap: 5px;
+}
+
+.login-form h2 {
+    border-bottom: 2px solid #001F3F; /* Navy Blue */
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #001F3F; /* Navy Blue */
+}
+
+label {
+    font-weight: 600; /* Slightly bolder for better emphasis */
+    font-size: 20px;
+    color: #333; /* Darker text color */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #001F3F; /* Navy Blue border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none; /* Remove outline */
+    border-color: #228B22; /* Forest Green for focus */
+}
+
+input:hover {
+    background-color: #f3e1e1; /* Keep original hover effect */
+}
+
+.button-login,
+.sign-bttn {
+    width: 100%;
+    padding: 10px;
+    background-color: #001F3F; /* Navy Blue */
+    color: white; /* White text for contrast */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #228B22; /* Forest Green on hover */
+}
+
+.toggle-link {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #001F3F; /* Navy Blue */
+    color: white; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.toggle-link:hover {
+    background-color: #228B22; /* Forest Green on hover */
+}
+
+@media (min-width: 600px) {
+    form div {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    label {
+        min-width: 120px; 
+    }
+
+    input {
+        margin-left: 0; 
+    }
+}
