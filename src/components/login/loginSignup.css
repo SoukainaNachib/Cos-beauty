@@ -54,7 +54,7 @@ input:focus {
 }
 
 input:hover {
-    background-color: #f3e1e1; /* Keep original hover effect */
+    background-color: #c9f0c9; /* Keep original hover effect */
 }
 
 .button-login,
